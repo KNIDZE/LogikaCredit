@@ -1,7 +1,7 @@
 function countLogiks(){
   let logiks = +document.getElementById('logik').value;
   let minutes = +document.getElementById('minutes').value;
-  let resultHeader = document.querySelector('h1')
+  let resultHeader = document.querySelector('.result')
   let decadeAmount = Math.floor(minutes / 10);
   let stavka = 0;
   if (minutes < 5) {
