@@ -17,16 +17,16 @@ function countLogiks(){
   }
   console.log(decadeAmount)
   if (1==decadeAmount){
-    stavka = 7;
+    stavka = 6;
   }
   if (2==decadeAmount) {
-    stavka = 9;
+    stavka = 7;
   }
   if (3 <= decadeAmount < 5){
-    stavka = 12;
+    stavka = 8;
   }
   if  (5 <= decadeAmount){
-    stavka = 15;
+    stavka = 10;
   }
   console.log(stavka / 100)
   for (let i = 0; i < decadeAmount; i++) {
